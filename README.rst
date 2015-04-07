@@ -1,4 +1,4 @@
-secure-smtplib
+secure-imaplib
 ==============
 
-Secure SMTP subclasses for Python 2
+Secure IMAP subclasses for Python 2

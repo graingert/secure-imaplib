@@ -8,16 +8,16 @@ readme = open('README.rst').read()
 history = open('CHANGES.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='secure-smtplib',
-    version='0.1.0',
+    name='secure-imaplib',
+    version='0.1.2',
     author='Thomas Grainger',
-    author_email='secure-smtplib@graingert.co.uk',
+    author_email='secure-imaplib@graingert.co.uk',
     maintainer='Thomas Grainger',
-    maintainer_email = 'secure-smtplib@graingert.co.uk',
-    keywords = 'smtplib, TLS, SSL, verify, validate, ca_cert, ca',
-    description = 'Secure SMTP subclasses for Python 2',
+    maintainer_email = 'secure-imaplib@graingert.co.uk',
+    keywords = 'imaplib, TLS, SSL, verify, validate, ca_cert, ca',
+    description = 'Secure IMAP subclasses for Python 2',
     long_description=readme + '\n\n' + history,
-    url='https://github.com/graingert/secure-smtplib',
+    url='https://github.com/graingert/secure-imaplib',
     package_dir={'': 'src'},
     packages=find_packages('src', exclude="tests"),
     zip_safe=True,
